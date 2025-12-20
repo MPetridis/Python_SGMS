@@ -1,0 +1,44 @@
+student_id,course_title,grade
+1001,Math I,7.5
+1001,Physics I,6.0
+1001,Intro to Programming,8.5
+1001,Math II,6.5
+1001,Programming II,7.0
+
+1002,Math I,5.5
+1002,Intro to Programming,6.0
+1002,Programming II,5.0
+
+1003,Math I,4.0
+1003,Intro to Programming,7.5
+
+1004,Math I,9.0
+1004,Physics I,8.0
+1004,Math II,8.5
+1004,Physics II,7.0
+1004,Linear Algebra,8.0
+
+1005,Math I,5.0
+1005,Intro to Programming,5.5
+1005,Programming II,4.5
+
+1006,Math I,6.0
+1006,Physics I,5.5
+1006,Intro to Programming,6.5
+1006,Programming II,6.0
+1006,Data Structures,6.5
+
+1007,Intro to Programming,9.0
+1007,Programming II,8.5
+1007,Data Structures,8.0
+
+1008,Math I,7.0
+1008,Linear Algebra,6.5
+1008,Probability and Statistics,5.5
+
+1009,Math I,6.0
+1009,Physics I,4.0
+
+1010,Intro to Programming,7.0
+1010,Programming II,6.5
+1010,Databases,7.5
