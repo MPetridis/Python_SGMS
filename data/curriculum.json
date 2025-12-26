@@ -3,6 +3,10 @@
     "ects": 5,
     "prerequisites": null
   },
+  "Physics I": {
+    "ects": 4,
+    "prerequisites": null
+  },
   "Intro to Programming": {
     "ects": 5,
     "prerequisites": null
@@ -13,17 +17,90 @@
       "Math I"
     ]
   },
+  "Physics II": {
+    "ects": 5,
+    "prerequisites": [
+      "Physics I",
+      "Math I"
+    ]
+  },
   "Programming II": {
     "ects": 6,
     "prerequisites": [
       "Intro to Programming"
     ]
   },
+  "Linear Algebra": {
+    "ects": 6,
+    "prerequisites": [
+      "Math I"
+    ]
+  },
   "Data Structures": {
     "ects": 6,
     "prerequisites": [
-      "Programming II",
-      "Math I"
+      "Programming II"
+    ]
+  },
+  "Probability and Statistics": {
+    "ects": 6,
+    "prerequisites": [
+      "Math II",
+      "Linear Algebra"
+    ]
+  },
+  "Databases": {
+    "ects": 5,
+    "prerequisites": [
+      "Programming II"
+    ]
+  },
+  "Operating Systems": {
+    "ects": 6,
+    "prerequisites": [
+      "Data Structures",
+      "Computer Architecture"
+    ]
+  },
+  "Computer Architecture": {
+    "ects": 5,
+    "prerequisites": [
+      "Physics II",
+      "Math II"
+    ]
+  },
+  "Computer Networks": {
+    "ects": 5,
+    "prerequisites": [
+      "Operating Systems"
+    ]
+  },
+  "Machine Learning": {
+    "ects": 7,
+    "prerequisites": [
+      "Probability and Statistics",
+      "Data Structures"
+    ]
+  },
+  "Artificial Intelligence": {
+    "ects": 7,
+    "prerequisites": [
+      "Machine Learning",
+      "Databases"
+    ]
+  },
+  "Distributed Systems": {
+    "ects": 6,
+    "prerequisites": [
+      "Operating Systems",
+      "Computer Networks"
+    ]
+  },
+  "Deep Learning": {
+    "ects": 8,
+    "prerequisites": [
+      "Machine Learning",
+      "Linear Algebra"
     ]
   }
 }
